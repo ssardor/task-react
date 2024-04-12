@@ -38,7 +38,6 @@ function Products() {
       });
 
       if (response.status === 200) {
-        console.log("Data sent successfully");
         alert("Data sent successfully")
         // Дополнительные действия при успешной отправке
       } else {
